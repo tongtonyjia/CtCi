@@ -12,13 +12,13 @@ from lib.LinkedList import LinkedList
 
 
 ll = LinkedList()
-ll.AddNode(1)
-ll.AddNode(3)
-ll.AddNode(1)
-ll.AddNode(2)
-ll.AddNode(6)
-ll.AddNode(2)
-ll.AddNode(4)
+ll.add_node(1)
+ll.add_node(3)
+ll.add_node(1)
+ll.add_node(2)
+ll.add_node(6)
+ll.add_node(2)
+ll.add_node(4)
 
 
 # Time: O(n), Space: O(n)

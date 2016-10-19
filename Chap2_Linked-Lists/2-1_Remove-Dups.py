@@ -15,13 +15,13 @@ from lib.LinkedList import LinkedList
 
 
 ll = LinkedList()
-ll.AddNode(1)
-ll.AddNode(3)
-ll.AddNode(1)
-ll.AddNode(2)
-ll.AddNode(6)
-ll.AddNode(2)
-ll.AddNode(4)
+ll.add_node(1)
+ll.add_node(3)
+ll.add_node(1)
+ll.add_node(2)
+ll.add_node(6)
+ll.add_node(2)
+ll.add_node(4)
 
 
 def remove_dups(ll):
@@ -42,7 +42,7 @@ def remove_dups(ll):
 
     return ll
 
-remove_dups(ll).PrintList()
+remove_dups(ll).print_list()
 
 
 def remove_dups_no_buffer(ll):
@@ -60,4 +60,4 @@ def remove_dups_no_buffer(ll):
 
     return ll
 
-remove_dups_no_buffer(ll).PrintList()
+remove_dups_no_buffer(ll).print_list()

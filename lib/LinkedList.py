@@ -9,7 +9,7 @@ class LinkedList:
         self.head = None
         self.tail = None
 
-    def AddNode(self, data):
+    def add_node(self, data):
         new_node = Node(data)
 
         if self.head is None:
@@ -20,7 +20,7 @@ class LinkedList:
 
         self.tail = new_node
 
-    def RemoveNode(self, index):
+    def remove_node(self, index):
         prev = None
         node = self.head
         i = 0
@@ -35,7 +35,7 @@ class LinkedList:
         else:
             prev.next = node.next
 
-    def PrintList(self):
+    def print_list(self):
         node = self.head
         while node is not None:
             print node.data
