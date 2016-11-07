@@ -2,10 +2,10 @@
 #
 # 1.4 Palindrome Permutation
 #
-# Given a string, write a function to chck if it is a permuation of a
+# Given a string, write a function to check if it is a permuation of a
 # palindrome. A palinedrome is a work or phrase that is the same forwards and
-# backwards. A permuatation is a rearrangelment of letters. Teh palindrome
-# does not need to be limited to just dictionarty words.
+# backwards. A permuatation is a rearrangelment of letters. The palindrome
+# does not need to be limited to just dictionary words.
 #
 ###############################################################################
 
