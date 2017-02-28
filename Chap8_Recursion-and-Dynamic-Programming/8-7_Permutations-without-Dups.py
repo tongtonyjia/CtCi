@@ -13,20 +13,23 @@ s = 'asdf'
 
 
 def permu(s):
-    perms = []
+    perms = list()
     for c in s:
-        perms.append([c])
+        perms.append(c)
 
-    while len(perms[0]) != len(s):
-        perm = perms.pop(0)
+    idx = 0
+    while len(perms[idx]) != len(s):
+        perm = perms[idx]
         for c in s:
             if c not in perm:
                 new = deepcopy(perm)
-                new.append(c)
+                new += c
                 perms.append(new)
+        idx += 1
 
-    return perms
+    return perms[idx:]
 
 perms = permu(s)
 for p in perms:
     print p
+    pass
