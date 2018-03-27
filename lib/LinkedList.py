@@ -38,6 +38,6 @@ class LinkedList:
     def print_list(self):
         node = self.head
         while node is not None:
-            print node.data
+            print(node.data)
             node = node.next
-        print ""
+        print("")
